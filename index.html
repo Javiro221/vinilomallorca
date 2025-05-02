@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vinilos y PLV en Mallorca</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; }
+    header, footer { background-color: #333; color: white; padding: 1em; text-align: center; }
+    nav { background-color: #555; display: flex; justify-content: center; }
+    nav a { color: white; padding: 1em; text-decoration: none; }
+    nav a:hover { background-color: #777; }
+    section { padding: 2em; }
+    .carousel img { width: 100%; max-height: 300px; object-fit: cover; }
+    .formulario input, .formulario textarea, .formulario button {
+      width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
+    }
+    .formulario label { font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Montajes de Vinilos y PLV en Mallorca</h1>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#presupuesto">Presupuesto</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenido</h2>
+  <div class="carousel">
+    <img src="https://via.placeholder.com/1200x300?text=Montaje+de+Vinilos" alt="Vinilo 1">
+    <img src="https://via.placeholder.com/1200x300?text=Impresión+Gran+Formato" alt="Vinilo 2">
+    <img src="https://via.placeholder.com/1200x300?text=PLV+en+Mallorca" alt="Vinilo 3">
+  </div>
+  <p>Somos especialistas en montajes de vinilos y PLV en toda Mallorca. Ofrecemos soluciones visuales impactantes y profesionales para tu negocio o evento.</p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <ul>
+    <li>Impresión gran formato</li>
+    <li>Montaje de vinilos</li>
+    <li>Montaje de PLV (Publicidad en el Lugar de Venta)</li>
+  </ul>
+</section>
+
+<section id="presupuesto">
+  <h2>Solicitá tu presupuesto</h2>
+  <form class="formulario" action="https://formspree.io/f/xwkgbpwl" method="POST">
+    <label for="nombre">Nombre*</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="empresa">Empresa*</label>
+    <input type="text" id="empresa" name="empresa" required>
+
+    <label for="email">Correo electrónico*</label>
+    <input type="email" id="email" name="_replyto" required>
+
+    <label for="telefono">Teléfono*</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <label for="descripcion">Descripción del trabajo*</label>
+    <textarea id="descripcion" name="descripcion" rows="5" required></textarea>
+
+    <label for="captcha">¿Cuánto es 3 + 4?*</label>
+    <input type="text" id="captcha" name="captcha" required pattern="7" title="Respuesta incorrecta">
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Email: <a href="mailto:vinilosmallorca@gmail.com">vinilosmallorca@gmail.com</a></p>
+  <p>Teléfono: <a href="tel:+34971123456">+34 971 123 456</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Vinilos Mallorca</p>
+</footer>
+
+</body>
+</html>
